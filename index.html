@@ -5,9 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Onur Kağan Orulluoğlu</title>
 </head>
 <body>
-    <h1 class="name">Onur Kağan Orulluoğlu</h1>
+
+    <img class = "photo" src="/Users/onurkagan/Downloads/onurkagan.png" alt="Onur Kağan" width="275px" height="275px">
+    <h1 class="text name">ONUR KAĞAN ORULLUOĞLU</h1>
+    <h4 class="text description">Yeni şeyler araştırmayı severim. (Alanınız) veya herhangi bir konu hakkında bilgi sahibi olmak devam eden bir süreçtir ve rolümde gelişmek ve büyümek için yeni fırsatlar arama konusunda her zaman proaktifim. Bu fırsatlar eğitim, konferans, bir konuşmacıyı dinlemek ya da yeni bir projeye girişmek şeklinde olabilir, ancak motivasyonum alan bilgimi arttırmaktır.</h4>
+
+    <!-- <a href="#" class="button1">
+        <span class="text">Hedeflerim</span>
+        <div class="liquid"></div>
+    </a>
+
+    <a href="#" class="button2">
+        <span class="text">Projelerim</span>
+        <div class="liquid"></div>
+    </a>
+
+    <a href="#" class="button3">
+        <span class="text">İletişim</span>
+        <div class="liquid"></div>
+    </a> -->
+
+    <ul>
+        <li class="button1" onMouseOver="javascript:changeColorBg('ff6b6b')" 
+        onmouseout="javascript:changeColorBg('transparent')">
+            <a class="text" href="goals.html">Hedeflerim</a>
+        </li>
+
+        <li class="button2" onMouseOver="javascript:changeColorBg('9acd32')" 
+        onmouseout="javascript:changeColorBg('transparent')">
+            <a class="text" href="projects.html">Projelerim</a>
+        </li>
+        
+        <li class="button3" onMouseOver="javascript:changeColorBg('48dbfb')" 
+        onmouseout="javascript:changeColorBg('transparent')">
+            <a class="text" href="contact.html">İletişim</a>
+        </li>
+    </ul>
+
+    <script type="text/javascript">
+        function changeColorBg(color){
+            document.bgColor = color;
+        }
+    </script>
+
 </body>
 </html>
