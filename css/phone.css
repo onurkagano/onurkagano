@@ -1,0 +1,44 @@
+@media (max-width:580px) {
+    .header-title{
+        font-size: 1.4rem;
+    }
+
+    .about--me img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-me-text{
+        font-size: 1.4rem;
+    }
+
+    .about-me-description{
+        top: 320px;
+    }
+
+    .about-me-description h2{
+        font-size: 1rem;
+    }
+
+    .side-pages{
+        top: 32em;
+    }
+
+    .contacts ul div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .goals-main{
+        top: 74em;
+    }
+
+    #page-wrap-left{
+        width: 70%;
+    }
+
+    #page-wrap-right{
+        width: 70%;
+    }
+} 
