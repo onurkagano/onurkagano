@@ -76,6 +76,10 @@ a {text-decoration: none;}
     background-color: transparent;
 }
 
+.my-photo{
+    border-radius: 50%;
+}
+
 /* Hakkımda Yazı Ayarlaması */
 
 .about-me-text {
@@ -142,7 +146,7 @@ a {text-decoration: none;}
 
 #codewars {order: 2;}
 
-#stack-overflow {order: 3;}
+#medium{order: 3;}
 
 #hacker-rank {order: 4;}
 
@@ -210,7 +214,7 @@ a {text-decoration: none;}
 /* METER CSS*/
 .meter {
     box-sizing: content-box;
-    height: 30px; /* Can be anything */
+    height: 30px;
     position: relative;
     margin: 20px 0 20px 0;
     background: rgb(0, 0, 0);
